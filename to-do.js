@@ -27,6 +27,7 @@ function addTask() {
 document.querySelector(".container").addEventListener("click", (e) => {
   if (e.target.tagName == "BUTTON") {
     e.target.parentElement.remove();
+    i--;
   }
 });
 
